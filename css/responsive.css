@@ -1,0 +1,400 @@
+@media only screen and (max-width: 2000px){
+	.row{
+		width: 100%;
+		}
+	.who-are-we-desc{
+		width: 50%; 
+		padding-left: 20px;
+		margin: 10px 0;
+		}
+	.p-big-desc{
+		width: 200px;
+		}
+	}
+@media only screen and (max-width: 1400px){
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+			height: 300px !important;
+			width: 85% !important;
+			left: 25px;
+		}
+	.col-sm-4{
+			width: 29%;
+		}
+	footer .back-to-top{
+			right: 45px !important;	
+		}
+		
+	
+	
+	.service .service-desc ul li{
+		line-height: 15px !important;
+		}
+		
+	.row{
+		width: 110%;
+		}
+	}
+@media only screen and (max-width: 1300px){
+	.row{
+		width: 110%;
+		}
+	}
+@media only screen and (max-width: 1250px){
+	.row{
+		width: 100%;
+		}
+	}
+@media only screen and (max-width: 1200px){
+	.sectionAbout{
+		padding: 260px 0 !important;	
+		}
+	footer .back-to-top{
+		right: 45px !important;	
+		}
+		
+	.service-icon{
+		padding: 25px !important;
+		}	
+	
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+		height: 230px !important;	
+		}
+	.row{
+		width: 115%;
+		}
+	.team-member-overlay p{
+		font-size: 12px;
+		line-height: 15px;
+		}
+	}
+@media only screen and (max-width: 1100px){
+	.row{
+		width: 100% !important;
+		}
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+		height: 210px !important;	
+		}
+	#contact-form input, #contact-form textarea{
+		clear: both !important; 
+		}
+	}
+@media only screen and (max-width: 1000px){
+	.col-sm-6{
+		margin-bottom: 0 !important; 
+		}
+	.sectionAbout{
+			padding: 230px 0 !important;	
+		}
+	
+	.row{
+		width: 110% !important;
+		}
+	.service-icon{
+		padding: 30px !important;
+		}	
+	.col-sm-4{
+		width: 27%;
+		}
+	}
+
+@media only screen and (max-width: 991px){
+	.sectionSERVICES .row{
+		width: 130% !important;
+		}
+	.sectionTEAM .row{
+		width: 120% !important;
+		}
+	#contact-form input, #contact-form textarea{
+		max-width: 70% !important;
+		}
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+		height: 190px !important;	
+		width: 190px !important;
+		left: 10px !important;
+		}
+	}
+@media only screen and (max-width: 900px){
+	.sectionTEAM .row{
+		width: 110% !important;
+		}
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+		height: 180px !important;
+		width: 180px !important;
+		left: 10px !important;
+		}
+	.service-icon{
+		padding: 15px !important;
+		}
+	.service-icon img{
+		width: 80%;
+		margin-top: 15px;
+		}
+	.serv_cre img{
+		width: 55%;
+		}
+	.col-sm-4{
+		width: 28%;
+		}
+	}
+@media only screen and (max-width: 890px){
+	.sectionSERVICES .row{
+		width: 120% !important;
+		}
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+		height: 180px !important;
+		width: 180px !important;
+		left: 10px !important;
+		}
+	
+	}	
+@media only screen and (max-width: 810px){
+	.sectionSERVICES .row{
+		width: 115% !important;
+		}
+	.sectionTEAM .row{
+		width: 105% !important;
+		}
+	#contact-form input, #contact-form textarea{
+		clear: both !important; 
+		}
+	#message-submit label{
+		display: none;	
+		}
+	.col-sm-4{
+		width: 29%;
+		}
+	}	
+@media only screen and (max-width: 768px){
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+		float: left; 
+		width: 29%;
+		}
+	
+	.sectionTEAM .row{
+		width: 105% !important;
+		}
+		
+	
+	.col-sm-7{
+		width: 50% !important;
+		}
+	
+	
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+		height: 160px !important;
+		width: 160px !important;
+		left: 10px !important;
+		}
+		
+	.sectionCONTACT, .sectionAbout {
+		background-color: #111 !important;
+		background-position: 20% 0% !important;
+		background-size: auto !important;
+		}
+	
+	footer .back-to-top{
+		bottom: 50px !important;
+		right: 20px !important;
+		}
+		
+	}
+@media only screen and (max-width: 767px){
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+		height: 160px !important;
+		width: 160px !important;
+		left: 0px !important;
+		}
+	}
+@media only screen and (max-width: 766px){
+	.sectionTEAM .row{
+		width: 110% !important;
+		}
+	}
+@media only screen and (max-width: 745px){
+	.sectionTEAM .row{
+		width: 115% !important;
+		}
+	}
+@media only screen and (max-width: 730px){
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+		height: 140px !important;
+		width: 140px !important;
+		left: 10px !important;
+		}
+	.sectionTEAM .row{
+		width: 120% !important;
+		}
+	}
+@media only screen and (max-width: 640px){
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+		height: 140px !important;
+		width: 140px !important;
+		left: 5px !important;
+		}
+	}
+@media only screen and (max-width: 615px){
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+		height: 140px !important;
+		width: 140px !important;
+		left: 1px !important;
+		}
+	}
+@media only screen and (max-width: 600px){
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, 			.col-sm-11, .col-sm-12{
+		float: none; 
+		width: 100%;
+		margin: 0 auto;
+		}
+	.sectionTEAM .row{
+		width: 100% !important;
+		}
+	.sectionTEAM .bottom-gap{
+		margin-bottom: 0 !important;
+		}
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+			height: 230px !important;
+			width: 70% !important;
+			left: 65px !important;
+		}
+	.sectionCONTACT .bottom-gap{
+		width: 210px !important;
+		margin: 0 auto;
+		}
+	.service{
+		width: 70% !important;
+		margin: 0 auto;
+		}
+	.service-icon{
+		padding: 68px !important;
+		}
+	
+	.home-bg-container{
+		background: url(../img/mobile-bg.jpg) fixed no-repeat top center !important;
+		z-index: 0 !important;
+		}
+		
+	#VideoBackground{
+		display: none; 
+		}
+	
+	.teambox{
+		margin-bottom: 70px !important;
+		}
+	}
+@media only screen and (max-width: 500px){
+	.sectionAbout h1{
+		font-size: 40px;
+		}
+	
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+			height: 230px !important;
+			width: 65% !important;
+			left: 65px !important;
+		}
+	}
+@media only screen and (max-width: 450px){
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+			height: 210px !important;
+			width: 62% !important;
+			left: 65px !important;
+		}
+	}
+@media only screen and (max-width: 420px){
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+			height: 190px !important;
+			width: 60% !important;
+			left: 55px !important;
+		}
+	.st-menu{
+		width: 150px !important;
+		padding-top: 20px !important;
+	}
+	.st-effect-2.st-menu-open .st-pusher { 
+		-webkit-transform: translate3d(-150px, 0, 0) !important; 
+		-moz-transform: translate3d(-150px, 0, 0) !important; 
+		-ms-transform: translate3d(-150px, 0, 0) !important; 
+		-o-transform: translate3d(-150px, 0, 0) !important; 
+		transform: translate3d(-150px, 0, 0) !important; 
+	}
+	}
+@media only screen and (max-width: 360px){
+	
+	.service{
+		width: 70% !important;
+		margin: 0 auto !important;
+		}
+	.service-icon{	
+		padding: 30px !important;
+		}
+	.sectionSERVICES .bottom-gap {
+		margin-bottom: 0 !important;
+		}
+	.col-sm-7{
+		width: 100% !important;
+		}
+	.contact-info{
+		padding-left: 30px;
+		}
+	
+	.sectionAbout h1{
+		font-size: 40px;
+		}
+	
+	.sectionTEAM .bottom-gap { margin-bottom: 20px !important; }
+	.sectionTEAM{ padding-bottom: 0 !important; }
+	
+	.team-member-overlay,
+	.team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay,	
+	.team-member-big img, .team-member-small img{
+			height: 160px !important;
+			width: 60% !important;
+			left: 48px !important;
+		}
+		
+	.sectionAbout h1{
+		font-size: 35px;
+		}
+	}
+@media only screen and (max-width: 320px){
+	.sectionAbout h1{
+		font-size: 30px;
+		}
+	.service-icon{
+		padding: 25px !important;
+		}
+	.who-are-we-desc{
+		padding: 0 10px;
+		width: 100%;
+		}
+	
+	}
