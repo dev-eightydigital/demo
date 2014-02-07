@@ -1019,15 +1019,13 @@ header{
 	min-height:700px;
 	}
 
-.who-are-we-desc{
-	margin: 35px 0;
-	}
 
 .the_section .p-big-desc{
-	margin-bottom: 60px;
+	
 	}
 	
-	
-.teambox{
-	
+.who-are-we-desc{
+	width: 60%; 
+	padding-left: 20px;
+	margin: 60px 0;
 	}
