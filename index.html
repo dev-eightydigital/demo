@@ -23,7 +23,7 @@
         
     </head>
 
-    <body>
+    <body data-scroll-index="0">
 	
     <!-- PAGE LOADER -->
     <!--<div id="page-loader">
@@ -52,6 +52,7 @@
       </div>
     </div>-->
     <!-- PAGE LOADER End -->
+    <div id="texthere"></div>
 
     <div id="st-trigger-effects" class="trigger-fixed visible-xs visible-sm">
       <a href="#" data-effect="st-effect-2">Menu<i class="fa fa-bars"></i></a>
@@ -78,7 +79,7 @@
           <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
 
 
-            <header id="header" data-scroll-index="0">
+            <header id="header">
               <!-- HOME FULLSCREEN -->              
               <div id="home" class="home-fullscreen" data-100="opacity:1" data-500="opacity:0.5">
 
@@ -135,7 +136,7 @@
               <!-- NAVBAR -->
             <div id="navbar" class="nav-fixed hidden-xs hidden-sm">
                 <div class="container">
-                    <div class="nav-logo fadeLeft"><a href="#" data-scroll-goto="0"><img src="img/logo.png" alt="EightyDigital"></a></div>
+                    <div class="nav-logo fadeLeft"><a href="#eightydigital" data-scroll-goto="0"><img src="img/logo.png" alt="EightyDigital"></a></div>
                     <nav class="main-nav">
                     <ul>
                       
@@ -454,7 +455,7 @@
                         <div class="team-member-overlay">
                           <h5>KURT LOY</h5>
                           <h6>ACCOUNT MANAGER</h6>
-                          <p>Ut commodo accumsan delenit augue aliquip qui vero, hendrerit duis euismod, velit vel nibh. Luptatum ea, eros illum iriure in velit veniam, sit, tation.</p>
+                          <p>Ut commodo accumsan delenit augue aliquip qui vero, hendrerit duis euismod, velit vel nibh. Luptatum ea, eros illum veniam, sit, tation.</p>
                           <div class="social-icons">
                               <a href="#" class="fa fa-facebook"></a>
                               <a href="#" class="fa fa-twitter"></a>
@@ -609,23 +610,46 @@
     
 	<script type="application/javascript">
 		var about = $('#aboutus');
-		var aboutpos = about.position();
-		w = window.screen.availWidth;
-		h = window.screen.availHeight;
+		var aboutpos = about.position(); 
+		var w = window.screen.availWidth;
+		var h = window.screen.availHeight;
 		
-		window.onscroll = function() {
-        	var windowpos = window.pageYOffset; 
-			if (windowpos <= (aboutpos.top - 400)) {
+		//back-to-top button settings
+		windowpos = window.pageYOffset; 
+			
+			if (windowpos <= 0) {
 				document.getElementById('back-to-top').style.visibility='hidden';
 			} else {
 				document.getElementById('back-to-top').style.visibility='visible';
 			}
+		//back-to-top button settings
+		window.onscroll = function(windowpos) {
+        	windowpos = window.pageYOffset; 
+			
+			if (windowpos <= 400) {
+				document.getElementById('back-to-top').style.visibility='hidden';
+			} else {
+				document.getElementById('back-to-top').style.visibility='visible';
+			}
+			
+			document.getElementById('texthere').innerHTML = aboutpos.top;
+			
+			if(windowpos > aboutpos.top){
+				$('.nav-logo a').addClass('sprite-on');
+			}else{
+				$('.nav-logo a').removeClass('sprite-on');
+				}
+			
 		};
+		//back-to-top button settings
 		
+		//onresize change video background's width to fit the current document
 		window.onresize = function(){
 			w = window.screen.availWidth;
 			h = window.screen.availHeight;
 			document.getElementById('VideoBackground').style.width = w +"px";
+			
+			document.getElementById('header').style.height= h +"px";
 			};
 		document.getElementById('VideoBackground').style.width = w +"px";
     </script>
