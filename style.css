@@ -318,15 +318,15 @@ header { background: #191919; }
 
 /* TEAM */
 .team-member-big, .team-member-small { 
-width: 100%; 
-position: relative; 
-text-align: center; 
-    
+	width: 317px; 
+	height: 317px;
+	position: relative; 
+	text-align: center; 
 }
 
 .team-member-big img, .team-member-small img { 
-width: 100%;
-height: 346px; 
+width: 317px;
+height: 317px; 
     -webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -334,8 +334,8 @@ height: 346px;
 }
 .team-member-big:hover .team-member-overlay, .team-member-small:hover .team-member-overlay { 
 background: #191919; 
-width: 100%;
-height: 346px; 
+width: 317px;
+height: 317px; 
     -webkit-border-radius: 50% !important;
 	-moz-border-radius: 50% !important;
 	border-radius: 50%;
@@ -352,9 +352,14 @@ height: 346px;
 
 .team-member-small:hover .team-member-overlay .social-icons { -webkit-transition: opacity 0.4s; -webkit-transition-delay: 0.2s; -moz-transition: opacity 0.4s 0.2s; -o-transition: opacity 0.4s 0.2s; transition: opacity 0.4s 0.2s; }
 
-.team-member-overlay { position: absolute; -webkit-transition: background 0.3s; -moz-transition: background 0.3s; -o-transition: background 0.3s; transition: background 0.3s; 
-width: 100% ;
-height: 346px ; 
+.team-member-overlay { 
+	position: absolute; 
+	-webkit-transition: background 0.3s; 
+	-moz-transition: background 0.3s; 
+	-o-transition: background 0.3s; 
+	transition: background 0.3s; 
+width: 317px;
+height: 317px; 
     -webkit-border-radius: 50% !important;
 	-moz-border-radius: 50% !important;
 	border-radius: 50%;
@@ -759,11 +764,25 @@ footer span{
 .section-diff .service:hover::before { height: 50px; width: 50px; border-top: 50px solid #f2f2f2; border-left: 50px solid #191919; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }*/
 
 .service .service-icon { font-size: 160px; color: #959595; }
-.service .service-header { font: 18px "Raleway-Bold", sans-serif; color: #fff; text-transform: uppercase; padding: 25px 0 10px 0; }
+.service .service-header { 
+	font: 18px "Raleway-SemiBold", sans-serif; 
+	color: #fff; 
+	text-transform: uppercase; 
+	padding: 25px 0 10px 0; 
+	}
 .service .service-desc { position: relative; padding: 0px; color: #666666; }
 .service .service-desc ul li{ 
 	font: 13px/20px "Raleway-Regular";
-	list-style:none; text-align:center; margin-right:40px;}
+	list-style:none; 
+	text-align:center; 
+	margin-right:40px;
+	color: #fff;
+	padding: 3px 0;
+	}
+
+.sectionSERVICES .bottom-gap{
+	margin-bottom: 30px; 
+	}
 /*
 .service .service-btn { margin: 15px -15px -15px; padding: 5px; border-top: 1px dashed #d9d9d9; }
 .service .service-btn .btn { color: #191919; }
@@ -976,3 +995,6 @@ header{
 	}
 	
 	
+.teambox{
+	
+	}
