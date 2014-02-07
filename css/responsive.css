@@ -380,6 +380,17 @@
 	.sectionAbout h1{
 		font-size: 35px;
 		}
+	.home-text{
+		padding-top: 150px !important; 
+		}
+	.home-text .big-text {
+		font-size: 18px !important;
+		}
+	.btnHOME{
+		font-size: 15px !important;
+		padding: 5px !important;
+		width: 165px !important;
+		}
 	}
 @media only screen and (max-width: 320px){
 	.sectionAbout h1{
