@@ -727,9 +727,11 @@ footer span{
 .count-item .count-subject { font: 14px "Montserrat", sans-serif; text-transform: uppercase; margin-top: 25px; }
 
 /* SERVICES */
-.service { text-align: center;  padding: 1px 18px; position: relative; -webkit-border-radius: 50%;
-		
-	width:80%;
+.service { 
+	text-align: center;  
+	padding: 1px 18px; 
+	position: relative; 
+	-webkit-border-radius: 50%;
 	}
 	
 .serv_cre {background: url(img/ser_cre.png) 0 0 no-repeat; }
@@ -743,10 +745,14 @@ footer span{
 	background: #363636;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
-	padding: 60px;
+	width: 184px;
+	height: 184px;
+	margin: 0 auto;
 	}
 .service-icon img{
-	vertical-align: text-top;
+	vertical-align: middle;
+	position: relative;
+	top: 35px;
 	}
 
 /*.service:hover::before { height: 50px; width: 50px; border-top: 50px solid white; border-left: 50px solid #191919; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
