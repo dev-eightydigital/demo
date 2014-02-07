@@ -78,7 +78,7 @@
           <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
 
 
-            <header data-scroll-index="0">
+            <header id="header" data-scroll-index="0">
               <!-- HOME FULLSCREEN -->              
               <div id="home" class="home-fullscreen" data-100="opacity:1" data-500="opacity:0.5">
 
@@ -98,7 +98,7 @@
                 
 
 				
-                <div class="overlay">
+                <div id="home-overlay" class="overlay">
                   <div id="home-content" class="home-content">
                     <!-- INFO BAR -->
 
@@ -620,22 +620,15 @@
 		w = window.screen.availWidth;
 		h = window.screen.availHeight;
 		
-		
-		homeheight = document.getElementById('home-content').offsetHeight;
-		
 		document.getElementById('back-to-top').style.visibility='hidden';
 		
 		window.onscroll = function() {
-        	var windowpos = window.pageYOffset; //.scrollTop();
-			//document.getElementById('check').innerHTML= "homeheight: "+ homeheight +"<br>Distance from top:" + aboutpos.top + "<br />Scroll position: " + windowpos;
-			
-			
+        	var windowpos = window.pageYOffset; 
 			if (windowpos <= (aboutpos.top - 400)) {
 				document.getElementById('back-to-top').style.visibility='hidden';
 			} else {
 				document.getElementById('back-to-top').style.visibility='visible';
 			}
-			
 		};
 		
 		window.onresize = function(){
