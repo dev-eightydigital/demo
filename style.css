@@ -219,10 +219,10 @@ header { background: #191919; }
 .home-content { position: relative; height: 100%; z-index: 3; }
 
 .home-text { 
-	margin: auto; 
+	margin: 300px 0 0; 
 	text-align: center; 
 	position: absolute; 
-	margin-top: 300px;
+	
 	top: 0px; 
 	left: 0;
 	bottom: 0; 
@@ -230,6 +230,9 @@ header { background: #191919; }
 	width: 100%; 
 	}
 .home-text ul{ margin: 0; padding: 0;}
+.home-text ul li{
+	list-style: none;
+	margin: 0 auto;}
 .home-text .big-text { 
 	font-family: "Raleway-Light", sans-serif; 
 	font-size: 55px; 
@@ -645,15 +648,20 @@ footer span{
 
 .btnHOME { 
     border: 1px solid #FFFFFF;
-    border-radius: 0;
     color: #FFFFFF;
-    font-family: "Montserrat",sans-serif;
-    font-size: 13px;
-    margin-bottom: 3px;
+    font-family: "Raleway-Light",sans-serif;
+    font-size: 22px;
+    
     padding: 10px 16px;
     text-decoration: none;
     text-shadow: none;
     text-transform: uppercase;
+	
+	display: block;
+	width: 250px;
+	margin: 0 auto;
+	margin-top: -370px;
+	
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { color: #444; background-color: #191919; *background-color: #191919; }
@@ -1007,6 +1015,7 @@ footer span{
 	}
 #home .overlay,
 header{
+	height: 700px
 	min-height:700px;
 	}
 
