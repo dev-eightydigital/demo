@@ -354,9 +354,9 @@
 
 	
 
-	function homeBgPlayer() {
+/*	function homeBgPlayer() {
       $(".home-bg-player").mb_YTPlayer();
-    };
+    };*/
 
 
 	//Function Initializing
@@ -370,9 +370,9 @@
 	projectLoad();
 	hideOnScroll();
 	animations();
-	fitVid();
+	//fitVid();
 	navBarf();
-	homeBgPlayer();
+	//homeBgPlayer();
 
 	if (!is_touch_device()) {
 		var s = skrollr.init();
