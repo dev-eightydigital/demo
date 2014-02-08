@@ -243,7 +243,7 @@ header { background: #191919; }
 .home-content { position: relative; height: 100%; z-index: 3; }
 
 .home-text { 
-	padding: 300px 0 0; 
+	padding: 160px 0 0; 
 	text-align: center; 
 	/*position: absolute; 
 	
@@ -709,7 +709,7 @@ footer span{
 	width: 250px;
 	margin: 0 auto;
 	position: relative;
-	margin-top: -10%;
+	margin-top: -8%;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { color: #444; background-color: #191919; *background-color: #191919; }
