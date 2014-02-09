@@ -122,21 +122,29 @@ img { max-width: 100%; }
 #navbar.nav-fixed-fixed .active { border-bottom: 2px solid #191919; }
 #navbar.nav-fixed-fixed .active:hover { border-bottom: 2px solid #666666; }
 
-@-webkit-keyframes read-more { 0% { bottom: 70px; }
-  50% { bottom: 60px; }
-  100% { bottom: 70px; } }
+@-webkit-keyframes read-more { 
+	0% { top: 440px; }
+	50% { top: 460px; }
+	100% { top: 440px; } 
+  }
 
-@-moz-keyframes read-more { 0% { bottom: 70px; }
-  50% { bottom: 60px; }
-  100% { bottom: 70px; } }
+@-moz-keyframes read-more { 
+	0% { top: 440px; }
+	50% { top: 460px; }
+	100% { top: 440px; } 
+  }
 
-@-o-keyframes read-more { 0% { bottom: 70px; }
-  50% { bottom: 60px; }
-  100% { bottom: 70px; } }
+@-o-keyframes read-more { 
+	0% { top: 440px; }
+	50% { top: 460px; }
+	100% { top: 440px; } 
+  }
 
-@keyframes read-more { 0% { bottom: 70px; }
-  50% { bottom: 60px; }
-  100% { bottom: 70px; } }
+@keyframes read-more { 
+	0% { top: 440px; }
+	50% { top: 460px; }
+	100% { top: 440px; } 
+  }
 
 /* ANIMATIONS */
 .fadeTop { top: -50px; opacity: 0; position: relative; }
@@ -224,8 +232,9 @@ header { background: #191919; }
 	}
 #home .home-more { 
 	position: absolute; 
+	top: 450px; 
+	/*
 	bottom: 70px;
-	/*top: 610px; 
 	left: 0px;*/
 	width: 100%; 
 	-webkit-animation: read-more 2s infinite; /* Safari 4+ */ 
