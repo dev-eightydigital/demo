@@ -123,27 +123,27 @@ img { max-width: 100%; }
 #navbar.nav-fixed-fixed .active:hover { border-bottom: 2px solid #666666; }
 
 @-webkit-keyframes read-more { 
-	0% { top: 440px; }
-	50% { top: 460px; }
-	100% { top: 440px; } 
+	0% { top: 445px; }
+	50% { top: 455px; }
+	100% { top: 445px; } 
   }
 
 @-moz-keyframes read-more { 
-	0% { top: 440px; }
-	50% { top: 460px; }
-	100% { top: 440px; } 
+	0% { top: 445px; }
+	50% { top: 455px; }
+	100% { top: 445px; } 
   }
 
 @-o-keyframes read-more { 
-	0% { top: 440px; }
-	50% { top: 460px; }
-	100% { top: 440px; } 
+	0% { top: 445px; }
+	50% { top: 455px; }
+	100% { top: 445px; } 
   }
 
 @keyframes read-more { 
-	0% { top: 440px; }
-	50% { top: 460px; }
-	100% { top: 440px; } 
+	0% { top: 445px; }
+	50% { top: 455px; }
+	100% { top: 445px; } 
   }
 
 /* ANIMATIONS */
